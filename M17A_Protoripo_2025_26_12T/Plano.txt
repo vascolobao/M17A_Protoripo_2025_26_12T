@@ -1,0 +1,13 @@
+﻿/* Funcionalidades */
+Gestão de livros, leitores e empréstimos/devoluções
+Livro capa (pasta), foto leitor (bd)
+CRUD - Livros, leitores e empréstimos
+Imprimir
+Instalador
+
+/* Modelo Dados */
+Leitores(nleitor, nome, data_nascimento, fotografia, estado)
+Livros(nlivro, titulo, autor, isbn, ano, data_aquisicao, preco, capa, estado)
+Emprestimos(nemprestimo, data_emprestimo, data_devolve, estado, nleitor, nlivro)
+
+/* ------------ */
